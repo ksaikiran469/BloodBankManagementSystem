@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+# JavaScript
+node_modules/
+dist/
+*.tsbuildinfo
+# Go
+*.exe
+*.test
+*.out
+coverage/
+# Editors / OS
+.vscode/*.log
+.idea/
+.DS_Store
+Thumbs.db
+# Local data
+*.sqlite
+*.db
